@@ -1,0 +1,299 @@
+
+
+body {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
+
+    margin: 0;
+  
+}
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+#central {
+    max-width: 320px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 250%;
+    color:#bbe1fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: rgb(255, 0, 234);
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #bbe1fa;
+    
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: rgb(255, 0, 234);
+    color:#bbe1fa;
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    background-color: rgb(255, 0, 234);
+}
+
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+.inferior a:hover {
+    background-color: rgb(255, 0, 234);
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 0, 234);
+    width: 100%;
+    height: 30%;
+    
+    
+    }
+    
+    
+    .Inicio{
+    
+    padding-right: 4px;
+        border-right:2px solid black ;
+    
+    
+    }
+    
+    .menu{
+    
+    margin-top: 10px;
+    
+    
+    }
+    
+    
+    
+    .item{
+    
+    
+    
+    text-decoration: none;
+    
+    font-size: 2rem;
+    
+    color: white;
+    
+    }
+    a{
+
+
+        text-decoration: none;
+        color: black;
+    }
+
+    .contenidoProductos {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 200px;
+        margin: 10px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+    }
+
+    .img img {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .info {
+        padding: 10px;
+    }
+
+
+.descripcion{
+
+
+text-align: justify;
+
+
+}
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.content {
+    width: 40%; /* Modificado */
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+}
+
+.nombre {
+    width: 40%; /* Modificado */
+    background-color: lightgray;
+    padding: 60px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.nombre h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+   margin-top: 5%;
+    width: 100%;
+
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imgen{
+
+width: 90%;
+
+height: 60%;
+
+}
+
+.boton:hover {
+    background-color: rgb(0, 63, 253); 
+}
+
+/* Estilos responsivos */
+@media screen and (min-width: 768px) {
+    .producto {
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .content {
+        width: 50%; /* Modificado */
+        margin-right: 20px;
+    }
+}
+    /* Media queries para hacerlo responsive */
+    @media screen and (max-width: 768px) {
+        .card {
+            width: 45%;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .card {
+            width: 100%;
+        }
+    }
